@@ -1,0 +1,4 @@
+branch,dataset,split,n_test,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,roc_auc,val_macro_f1
+EEG,EEG Brainwave Feeling Emotions,random window split (subject-dependent),427,0.9485,0.949,0.9484,0.9485,0.9486,0.9861,0.953
+Face,FER2013,official split,3173,0.7255,0.7096,0.7454,0.7167,0.7315,0.896,0.7046
+Speech,RAVDESS audio,actor-independent 4-fold,1248,0.6466,0.5749,0.6139,0.5873,0.6549,0.785,0.6359

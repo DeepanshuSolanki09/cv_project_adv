@@ -1,0 +1,16 @@
+available,mask,w_EEG,w_Face,w_Speech,w_Video,sum_w,state
+EEG,1000,1.0,0.0,0.0,0.0,1.0,OK
+Face,0100,0.0,1.0,0.0,0.0,1.0,OK
+Speech,0010,0.0,0.0,1.0,0.0,1.0,OK
+Video,0001,0.0,0.0,0.0,0.0,0.0,UNAVAILABLE
+EEG+Face,1100,0.625,0.375,0.0,0.0,1.0,OK
+EEG+Speech,1010,0.672,0.0,0.328,0.0,1.0,OK
+EEG+Video,1001,1.0,0.0,0.0,0.0,1.0,OK
+Face+Speech,0110,0.0,0.551,0.449,0.0,1.0,OK
+Face+Video,0101,0.0,1.0,0.0,0.0,1.0,OK
+Speech+Video,0011,0.0,0.0,1.0,0.0,1.0,OK
+EEG+Face+Speech,1110,0.479,0.287,0.234,0.0,1.0,OK
+EEG+Face+Video,1101,0.625,0.375,0.0,0.0,1.0,OK
+EEG+Speech+Video,1011,0.672,0.0,0.328,0.0,1.0,OK
+Face+Speech+Video,0111,0.0,0.551,0.449,0.0,1.0,OK
+EEG+Face+Speech+Video,1111,0.479,0.287,0.234,0.0,1.0,OK

@@ -1,0 +1,17 @@
+test,passed
+weights are zero for every unavailable modality,True
+weights are zero for a modality without a trained model (q=0),True
+weights sum to 1 whenever a trained modality is available,True
+rows with no trained modality are flagged unavailable (no division by zero),True
+all-unavailable input returns zero weights and valid=False,True
+Mamdani: label UNAVAILABLE exactly where no modality is usable,True
+"Mamdani: all beliefs within [0,1]",True
+Sugeno-0: label UNAVAILABLE exactly where no modality is usable,True
+"Sugeno-0: all beliefs within [0,1]",True
+Tsukamoto: label UNAVAILABLE exactly where no modality is usable,True
+"Tsukamoto: all beliefs within [0,1]",True
+Sugeno-1 constrained fit converged,True
+"Sugeno-1: all beliefs within [0,1] (no negative scores)",True
+"Sugeno-1: every rule consequent within [0,1] at all corners of the input domain",True
+single modality: weighted mean equals that branch's argmax,True
+chance-level model receives (near) zero quality,True
